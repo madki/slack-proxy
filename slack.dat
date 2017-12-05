@@ -1,0 +1,2 @@
+slackproxy = /slack.com//;
+if (slackproxy.test(host)) return "PROXY 45.55.165.6:8080; DIRECT";
